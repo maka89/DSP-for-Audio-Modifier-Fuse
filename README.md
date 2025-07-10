@@ -38,3 +38,6 @@ The buffer needs to be reset when changing any of the parameters in the initiali
 - buffer is the buffer created by the initialize_buffer() function. When the envelope is calculated for a given time, t, the envelope for all times <= t is also calculated and stored in the buffer. Giving faster retrieval the second time one calls calculate_raw_envelope().
 
 
+
+## Example
+![Example plot of envelope calculated from audio](https://github.com/maka89/DSP-for-Audio-Modifier-Fuse/img/Figure_2.jpg)
