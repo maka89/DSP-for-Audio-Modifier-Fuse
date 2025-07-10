@@ -40,6 +40,6 @@ The buffer needs to be reset when changing any of the parameters in the initiali
 
 
 ## Example
-Example plot of envelope calculated from audio
+Example plot of envelope calculated from audio.
 Simple example with scale=1,offet=0,minval=0, attack=50ms, lookahead=25ms, release=300ms.
 ![Example plot of envelope calculated from audio](img/Figure_1.jpeg)
