@@ -37,7 +37,7 @@ function test()
 
 	frame_rate = 24.0
 	-- Process data
-	buffer = initialize_buffer(x,sample_rate,atk_ms,rel_ms,0.0)
+	buffer = initialize_buffer(x,sample_rate,atk_ms,rel_ms)
 	y={}
 	ts = {}
 	tmax = 4.0

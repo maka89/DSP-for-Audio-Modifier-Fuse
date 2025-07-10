@@ -109,7 +109,7 @@ end
 -- release: Release in milliseconds
 -- lookahead: lookahead in milliseconds
 -- frame_rate: Frame rate of video
-function initialize_buffer(audio_samples, audio_sample_rate, attack, release, frame_rate)
+function initialize_buffer(audio_samples, audio_sample_rate, attack, release)
 	buffer = {}
 	N = tablelength(audio_samples)
 
